@@ -591,6 +591,44 @@
       <scope id="4394627182935306690" at="225,0,235,0" />
     </file>
   </root>
+  <root nodeRef="r:1a01fdc1-6171-4a9b-86c9-e6b8bbdfe8af(Kaja.sandbox.sandbox)/5147968963600851276">
+    <file name="Experiments.java">
+      <node id="5147968963600851297" at="12,11,13,19" concept="2" />
+      <node id="5147968963600851297" at="13,19,14,16" concept="2" />
+      <node id="5147968963600851330" at="17,22,18,19" concept="2" />
+      <node id="5147968963600851330" at="18,19,19,16" concept="2" />
+      <node id="5147968963600851330" at="20,14,21,89" concept="2" />
+      <node id="5147968963600851276" at="25,42,26,43" concept="6" />
+      <node id="5147968963600851276" at="26,43,27,34" concept="2" />
+      <node id="5147968963600851276" at="27,34,28,17" concept="2" />
+      <node id="5147968963600851276" at="8,0,10,0" concept="1" trace="Experiments#()V" />
+      <node id="5147968963600851330" at="20,12,22,7" concept="0" />
+      <node id="5147968963600851297" at="11,99,16,7" concept="11" />
+      <node id="5147968963600851276" at="25,0,30,0" concept="10" trace="main#([Ljava/lang/String;)V" />
+      <node id="5147968963600851330" at="16,7,22,7" concept="4" />
+      <node id="5147968963600851280" at="10,28,23,5" concept="3" />
+      <node id="5147968963600851276" at="10,0,25,0" concept="5" trace="perform#()V" />
+      <scope id="5147968963600851276" at="8,24,8,24" />
+      <scope id="5147968963600851297" at="15,17,15,17" />
+      <scope id="5147968963600851330" at="20,14,21,89" />
+      <scope id="5147968963600851276" at="8,0,10,0" />
+      <scope id="5147968963600851297" at="12,11,14,16" />
+      <scope id="5147968963600851330" at="17,22,19,16" />
+      <scope id="5147968963600851276" at="25,42,28,17">
+        <var name="script" id="5147968963600851276" />
+      </scope>
+      <scope id="5147968963600851276" at="25,0,30,0">
+        <var name="args" id="5147968963600851276" />
+      </scope>
+      <scope id="5147968963600851280" at="11,99,22,7" />
+      <scope id="5147968963600851276" at="10,28,23,5" />
+      <scope id="5147968963600851280" at="10,28,23,5">
+        <var name="indexVariable_rfjjsr_a0" id="5147968963600851280" />
+      </scope>
+      <scope id="5147968963600851276" at="10,0,25,0" />
+      <unit id="5147968963600851276" at="7,0,31,0" name="Kaja.sandbox.sandbox.Experiments" />
+    </file>
+  </root>
   <root nodeRef="r:1a01fdc1-6171-4a9b-86c9-e6b8bbdfe8af(Kaja.sandbox.sandbox)/7446293342517103305">
     <file name="Sample.java">
       <node id="3177886886428366304" at="12,20,13,17" concept="2" />

@@ -283,6 +283,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:b567205c-7e17-4168-b413-945a6e17f37d(jetbrains.mps.samples.Kaja.structure)/3308300503039660364");
     b.prop("count", 0x2de971c785ecd14eL, "3308300503039660366");
     b.aggregate("body", 0x2de971c785ecd14fL).target(0x49a08c51fe543ccL, 0xbd998b46d641d7f5L, 0x2de971c785f06a3fL).optional(false).ordered(true).multiple(false).origin("3308300503039660367").done();
+    b.aggregate("alternate_count", 0x4771427f4e28e42bL).target(0xcfaa4966b7d54b69L, 0xb66a309a6e1a7290L, 0x670d5e92f854a047L).optional(true).ordered(true).multiple(false).origin("5147968963600770091").done();
     b.alias("repeat");
     return b.create();
   }

@@ -11,6 +11,8 @@
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" />
     <import index="tpch" ref="r:00000000-0000-4000-0000-011c8959028d(jetbrains.mps.lang.structure.editor)" />
+    <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
+    <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -673,6 +675,9 @@
       <node concept="3F0A7n" id="2RDssu5Vd5q" role="3EZMnx">
         <ref role="1NtTu8" to="c2kz:2RDssu5Vd5e" resolve="count" />
         <ref role="1k5W1q" to="tpen:hshT4rC" resolve="NumericLiteral" />
+      </node>
+      <node concept="3F1sOY" id="4tLgBXeakV1" role="3EZMnx">
+        <ref role="1NtTu8" to="c2kz:4tLgBXeaegF" resolve="alternate_count" />
       </node>
       <node concept="3F0ifn" id="5M_y76sw_JZ" role="3EZMnx">
         <property role="3F0ifm" value="times" />

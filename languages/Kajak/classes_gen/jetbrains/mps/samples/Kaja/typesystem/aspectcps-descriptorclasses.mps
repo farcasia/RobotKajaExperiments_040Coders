@@ -844,7 +844,7 @@
                           <ref role="3cqZAo" node="1P" resolve="library" />
                         </node>
                         <node concept="Xl_RD" id="33" role="37wK5m">
-                          <property role="Xl_RC" value="Script and Library names must be unique???" />
+                          <property role="Xl_RC" value="Script and Library names must be unique" />
                         </node>
                         <node concept="Xl_RD" id="34" role="37wK5m">
                           <property role="Xl_RC" value="r:af5f8eb9-49c0-4279-87d3-3c80b1a56988(jetbrains.mps.samples.Kaja.typesystem)" />

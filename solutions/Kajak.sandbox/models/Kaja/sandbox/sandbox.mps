@@ -5,9 +5,21 @@
     <use id="049a08c5-1fe5-43cc-bd99-8b46d641d7f5" name="jetbrains.mps.samples.Kaja" version="0" />
     <use id="44306fd2-ef94-4b56-9806-d9ab509536db" name="jetbrains.mps.samples.KajaAndOr" version="0" />
     <use id="b56912a3-674f-4530-b0cf-55261b526a1f" name="jetbrains.mps.samples.KajaSceneConstruction" version="0" />
+    <use id="6fadc44e-69c2-4a4a-9d16-7ebf5f8d3ba0" name="org.iets3.core.expr.math" version="0" />
+    <use id="6b277d9a-d52d-416f-a209-1919bd737f50" name="org.iets3.core.expr.simpleTypes" version="1" />
   </languages>
   <imports />
   <registry>
+    <language id="6b277d9a-d52d-416f-a209-1919bd737f50" name="org.iets3.core.expr.simpleTypes">
+      <concept id="5115872837157054170" name="org.iets3.core.expr.simpleTypes.structure.NumberLiteral" flags="ng" index="30bXRB">
+        <property id="5115872837157054173" name="value" index="30bXRw" />
+      </concept>
+    </language>
+    <language id="6fadc44e-69c2-4a4a-9d16-7ebf5f8d3ba0" name="org.iets3.core.expr.math">
+      <concept id="4944417823362158056" name="org.iets3.core.expr.math.structure.SqrtExpression" flags="ng" index="a0DgS">
+        <child id="4944417823362162236" name="expr" index="a0CvG" />
+      </concept>
+    </language>
     <language id="44306fd2-ef94-4b56-9806-d9ab509536db" name="jetbrains.mps.samples.KajaAndOr">
       <concept id="1904811872814253578" name="jetbrains.mps.samples.KajaAndOr.structure.And" flags="ng" index="1Tpgp4" />
       <concept id="1904811872814253785" name="jetbrains.mps.samples.KajaAndOr.structure.LogicalOperator" flags="ng" index="1Tpgqn">
@@ -47,6 +59,7 @@
       </concept>
       <concept id="3308300503039660364" name="jetbrains.mps.samples.Kaja.structure.Repeat" flags="ng" index="2C1q2b">
         <property id="3308300503039660366" name="count" index="2C1q29" />
+        <child id="5147968963600770091" name="alternate_count" index="9mqpk" />
         <child id="3308300503039660367" name="body" index="2C1q28" />
       </concept>
       <concept id="3308300503039654064" name="jetbrains.mps.samples.Kaja.structure.Not" flags="ng" index="2C1s_R">
@@ -628,6 +641,23 @@
                 <property role="24IuFs" value="Found a mark" />
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1x_AGo" id="4tLgBXeay5c">
+    <property role="TrG5h" value="Experiments" />
+    <node concept="2C6hJS" id="4tLgBXeay5d" role="1x_AGi">
+      <node concept="2C1q2b" id="4tLgBXeay5g" role="2C6hI7">
+        <property role="2C1q29" value="5" />
+        <node concept="2C6hJS" id="4tLgBXeay5h" role="2C1q28">
+          <node concept="2C1uTc" id="4tLgBXeay5x" role="2C6hI7" />
+          <node concept="1x_AGW" id="4tLgBXeay62" role="2C6hI7" />
+        </node>
+        <node concept="a0DgS" id="520ZI_UYg92" role="9mqpk">
+          <node concept="30bXRB" id="520ZI_UYg9g" role="a0CvG">
+            <property role="30bXRw" value="8" />
           </node>
         </node>
       </node>
