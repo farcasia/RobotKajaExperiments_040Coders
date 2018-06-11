@@ -167,7 +167,7 @@ public class MarkSniffer extends KajaFrame {
     }
   }
   public void turnRight_from_library_Common_routine() {
-    for (int indexVariable_ormfpz_a0e = 0; indexVariable_ormfpz_a0e < 3; indexVariable_ormfpz_a0e++) {
+    for (int indexVariable_ormfpz_a0e = 0; indexVariable_ormfpz_a0e < 2; indexVariable_ormfpz_a0e++) {
       try {
         turnLeft();
         pause();

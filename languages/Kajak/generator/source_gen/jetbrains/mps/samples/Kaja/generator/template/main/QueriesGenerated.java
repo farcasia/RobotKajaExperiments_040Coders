@@ -7,6 +7,7 @@ import jetbrains.mps.generator.template.BaseMappingRuleContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.generator.template.PropertyMacroContext;
+import jetbrains.mps.samples.Kaja.behavior.Repeat__BehaviorDescriptor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
@@ -48,7 +49,7 @@ public class QueriesGenerated {
     return _context.createUniqueName("indexVariable", _context.getNode());
   }
   public static Object propertyMacro_GetPropertyValue_3308300503039660463(final PropertyMacroContext _context) {
-    return SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x49a08c51fe543ccL, 0xbd998b46d641d7f5L, 0x2de971c785ecd14cL, 0x2de971c785ecd14eL, "count"));
+    return (Integer) Repeat__BehaviorDescriptor.evaluateCount_id520ZI_V2eLm.invoke(_context.getNode());
   }
   public static Object propertyMacro_GetPropertyValue_3308300503039701227(final PropertyMacroContext _context) {
     if (SNodeOperations.getNodeAncestor(_context.getNode(), MetaAdapterFactory.getConcept(0x49a08c51fe543ccL, 0xbd998b46d641d7f5L, 0x2d523c5e4cc45746L, "jetbrains.mps.samples.Kaja.structure.Script"), false, false) != null) {

@@ -198,7 +198,7 @@ public class Maze extends KajaFrame {
     }
   }
   public void turnRight_from_library_Common_routine() {
-    for (int indexVariable_pmgf_a0e = 0; indexVariable_pmgf_a0e < 3; indexVariable_pmgf_a0e++) {
+    for (int indexVariable_pmgf_a0e = 0; indexVariable_pmgf_a0e < 2; indexVariable_pmgf_a0e++) {
       try {
         turnLeft();
         pause();

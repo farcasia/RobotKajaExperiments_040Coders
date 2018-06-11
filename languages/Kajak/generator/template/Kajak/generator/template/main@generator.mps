@@ -15,6 +15,7 @@
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="rplu" ref="r:9461eebf-33f0-4947-a908-658b211e1611(jetbrains.mps.samples.Kaja.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -278,6 +279,7 @@
       <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
+      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1138676077309" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="nn" index="uoxfO">
         <reference id="1138676095763" name="enumMember" index="uo_Cq" />
       </concept>
@@ -1105,8 +1107,8 @@
                   <node concept="3clFbS" id="2RDssu5Vd6K" role="2VODD2">
                     <node concept="3clFbF" id="2RDssu5Vd6L" role="3cqZAp">
                       <node concept="2OqwBi" id="2RDssu5Vd6M" role="3clFbG">
-                        <node concept="3TrcHB" id="2RDssu5Vd6N" role="2OqNvi">
-                          <ref role="3TsBF5" to="c2kz:2RDssu5Vd5e" resolve="count" />
+                        <node concept="2qgKlT" id="520ZI_V2ryx" role="2OqNvi">
+                          <ref role="37wK5l" to="rplu:520ZI_V2eLm" resolve="evaluateCount" />
                         </node>
                         <node concept="30H73N" id="2RDssu5Vd6O" role="2Oq$k0" />
                       </node>

@@ -240,13 +240,9 @@
     <node concept="1TJgyj" id="4tLgBXeaegF" role="1TKVEi">
       <property role="IQ2ns" value="5147968963600770091" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="alternate_count" />
+      <property role="20kJfa" value="count" />
+      <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="hm2y:6sdnDbSla17" resolve="Expression" />
-    </node>
-    <node concept="1TJgyi" id="2RDssu5Vd5e" role="1TKVEl">
-      <property role="TrG5h" value="count" />
-      <property role="IQ2nx" value="3308300503039660366" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
   <node concept="1TIwiD" id="2RDssu5VeNw">

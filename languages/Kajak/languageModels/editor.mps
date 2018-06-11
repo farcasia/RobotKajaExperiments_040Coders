@@ -672,12 +672,8 @@
           <property role="VOm3f" value="false" />
         </node>
       </node>
-      <node concept="3F0A7n" id="2RDssu5Vd5q" role="3EZMnx">
-        <ref role="1NtTu8" to="c2kz:2RDssu5Vd5e" resolve="count" />
-        <ref role="1k5W1q" to="tpen:hshT4rC" resolve="NumericLiteral" />
-      </node>
       <node concept="3F1sOY" id="4tLgBXeakV1" role="3EZMnx">
-        <ref role="1NtTu8" to="c2kz:4tLgBXeaegF" resolve="alternate_count" />
+        <ref role="1NtTu8" to="c2kz:4tLgBXeaegF" resolve="count" />
       </node>
       <node concept="3F0ifn" id="5M_y76sw_JZ" role="3EZMnx">
         <property role="3F0ifm" value="times" />

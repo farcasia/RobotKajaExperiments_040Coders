@@ -27,12 +27,11 @@ public class Dog extends KajaFrame {
     runArround_routine();
   }
   public void lay_routine() {
-    for (int indexVariable_qku_a0a = 0; indexVariable_qku_a0a < 5; indexVariable_qku_a0a++) {
-      if (canMove()) {
-        moveKaja();
+    for (int indexVariable_qku_a0a = 0; indexVariable_qku_a0a < 2; indexVariable_qku_a0a++) {
+      try {
+        turnLeft();
         pause();
-      } else {
-        reportError("Oops, There's a wall in front of me. I can't make a step forward.");
+      } finally {
       }
     }
     if (!(isFull())) {
@@ -42,7 +41,7 @@ public class Dog extends KajaFrame {
       reportError("Cannot drop. The cell is already full.");
     }
     turnAround_routine();
-    for (int indexVariable_qku_d0a = 0; indexVariable_qku_d0a < 5; indexVariable_qku_d0a++) {
+    for (int indexVariable_qku_d0a = 0; indexVariable_qku_d0a < 2; indexVariable_qku_d0a++) {
       if (canMove()) {
         moveKaja();
         pause();
