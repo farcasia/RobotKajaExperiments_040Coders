@@ -7,6 +7,7 @@
     <use id="b56912a3-674f-4530-b0cf-55261b526a1f" name="jetbrains.mps.samples.KajaSceneConstruction" version="0" />
     <use id="6fadc44e-69c2-4a4a-9d16-7ebf5f8d3ba0" name="org.iets3.core.expr.math" version="0" />
     <use id="6b277d9a-d52d-416f-a209-1919bd737f50" name="org.iets3.core.expr.simpleTypes" version="1" />
+    <engage id="6fadc44e-69c2-4a4a-9d16-7ebf5f8d3ba0" name="org.iets3.core.expr.math" />
   </languages>
   <imports />
   <registry>
@@ -16,6 +17,9 @@
       </concept>
     </language>
     <language id="6fadc44e-69c2-4a4a-9d16-7ebf5f8d3ba0" name="org.iets3.core.expr.math">
+      <concept id="4944417823362158056" name="org.iets3.core.expr.math.structure.SqrtExpression" flags="ng" index="a0DgS">
+        <child id="4944417823362162236" name="expr" index="a0CvG" />
+      </concept>
       <concept id="4944417823362108742" name="org.iets3.core.expr.math.structure.FractionExpression" flags="ng" index="a1tim">
         <child id="4944417823362108743" name="numerator" index="a1tin" />
         <child id="4944417823362108746" name="denominator" index="a1tiq" />
@@ -579,8 +583,10 @@
             <node concept="2C6hJS" id="520ZI_V3n5b" role="2C1q28">
               <node concept="2C1uTc" id="520ZI_V3n5B" role="2C6hI7" />
             </node>
-            <node concept="30bXRB" id="520ZI_V3n5o" role="9mqpk">
-              <property role="30bXRw" value="2" />
+            <node concept="a0DgS" id="3sywop2gTF4" role="9mqpk">
+              <node concept="30bXRB" id="3sywop2gTFk" role="a0CvG">
+                <property role="30bXRw" value="4" />
+              </node>
             </node>
           </node>
           <node concept="1b4w60" id="JFO1DNuAdP" role="2C6hI7" />
