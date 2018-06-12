@@ -13,11 +13,13 @@
   </dependency>
   <dependency className="jetbrains.mps.samples.Kaja.behavior.Repeat__BehaviorDescriptor" file="Repeat__BehaviorDescriptor.java">
     <classNode dependClassName="com.mbeddr.mpsutil.interpreter.rt.InterpreterEvaluationHelper" />
+    <classNode dependClassName="com.mbeddr.mpsutil.interpreter.rt.NullCoverageAnalyzer" />
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Number" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.Void" />
     <classNode dependClassName="java.util.Arrays" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.logging.runtime.model.LoggingRuntime" />
@@ -30,11 +32,13 @@
     <classNode dependClassName="jetbrains.mps.core.aspects.behaviour.api.SConstructor" />
     <classNode dependClassName="jetbrains.mps.core.aspects.behaviour.api.SMethod" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
     <classNode dependClassName="jetbrains.mps.smodel.language.ConceptRegistry" />
     <classNode dependClassName="org.apache.log4j.Level" />
     <classNode dependClassName="org.apache.log4j.LogManager" />
     <classNode dependClassName="org.apache.log4j.Logger" />
+    <classNode dependClassName="org.iets3.core.expr.base.behavior.IETS3ExprContext" />
     <classNode dependClassName="org.jetbrains.annotations.NotNull" />
     <classNode dependClassName="org.jetbrains.annotations.Nullable" />
     <classNode dependClassName="org.jetbrains.mps.openapi.language.SAbstractConcept" />

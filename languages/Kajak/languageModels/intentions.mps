@@ -12,6 +12,7 @@
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="exr9" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor(MPS.Editor/)" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
+    <import index="rplu" ref="r:9461eebf-33f0-4947-a908-658b211e1611(jetbrains.mps.samples.Kaja.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -65,6 +66,7 @@
       </concept>
     </language>
     <language id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions">
+      <concept id="1192794744107" name="jetbrains.mps.lang.intentions.structure.IntentionDeclaration" flags="ig" index="2S6QgY" />
       <concept id="1192794782375" name="jetbrains.mps.lang.intentions.structure.DescriptionBlock" flags="in" index="2S6ZIM" />
       <concept id="1192795911897" name="jetbrains.mps.lang.intentions.structure.ExecuteBlock" flags="in" index="2Sbjvc" />
       <concept id="1192796902958" name="jetbrains.mps.lang.intentions.structure.ConceptFunctionParameter_node" flags="nn" index="2Sf5sV" />
@@ -87,6 +89,7 @@
       <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
+      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1143224127713" name="jetbrains.mps.lang.smodel.structure.Node_InsertPrevSiblingOperation" flags="nn" index="HtX7F">
         <child id="1143224127716" name="insertedNode" index="HtX7I" />
       </concept>
@@ -302,6 +305,31 @@
               <node concept="37vLTw" id="3GM_nagTBAC" role="37wK5m">
                 <ref role="3cqZAo" node="2URGstPlaxx" resolve="routineDefinition" />
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="70kP5HjNa2q">
+    <property role="TrG5h" value="setHiddenCount" />
+    <ref role="2ZfgGC" to="c2kz:2RDssu5Vd5c" resolve="Repeat" />
+    <node concept="2S6ZIM" id="70kP5HjNa2r" role="2ZfVej">
+      <node concept="3clFbS" id="70kP5HjNa2s" role="2VODD2">
+        <node concept="3clFbF" id="70kP5HjNac2" role="3cqZAp">
+          <node concept="Xl_RD" id="70kP5HjNac1" role="3clFbG">
+            <property role="Xl_RC" value="Set hidden count" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="70kP5HjNa2t" role="2ZfgGD">
+      <node concept="3clFbS" id="70kP5HjNa2u" role="2VODD2">
+        <node concept="3clFbF" id="70kP5HjNbyS" role="3cqZAp">
+          <node concept="2OqwBi" id="70kP5HjNbEG" role="3clFbG">
+            <node concept="2Sf5sV" id="70kP5HjNbyR" role="2Oq$k0" />
+            <node concept="2qgKlT" id="70kP5HjNbVt" role="2OqNvi">
+              <ref role="37wK5l" to="rplu:70kP5HjMsic" resolve="setHiddenCount" />
             </node>
           </node>
         </node>

@@ -59,6 +59,7 @@
         <child id="3308300503039667426" name="condition" index="2C1pO_" />
       </concept>
       <concept id="3308300503039660364" name="jetbrains.mps.samples.Kaja.structure.Repeat" flags="ng" index="2C1q2b">
+        <property id="8076313520494986246" name="hiddenCount" index="zRh1t" />
         <child id="5147968963600770091" name="count" index="9mqpk" />
         <child id="3308300503039660367" name="body" index="2C1q28" />
       </concept>
@@ -537,12 +538,13 @@
     <property role="TrG5h" value="Experiments" />
     <node concept="2C6hJS" id="4tLgBXeay5d" role="1x_AGi">
       <node concept="2C1q2b" id="520ZI_V3n7w" role="2C6hI7">
+        <property role="zRh1t" value="5" />
         <node concept="2C6hJS" id="520ZI_V3n7y" role="2C1q28" />
-        <node concept="a1tim" id="520ZI_V3Lqy" role="9mqpk">
-          <node concept="30bXRB" id="520ZI_V3LqL" role="a1tin">
+        <node concept="a1tim" id="70kP5HjKOlv" role="9mqpk">
+          <node concept="30bXRB" id="70kP5HjKOlI" role="a1tin">
             <property role="30bXRw" value="10" />
           </node>
-          <node concept="30bXRB" id="520ZI_V3Lr4" role="a1tiq">
+          <node concept="30bXRB" id="70kP5HjKOm1" role="a1tiq">
             <property role="30bXRw" value="2" />
           </node>
         </node>
